@@ -1,0 +1,69 @@
+Improving the way i solve the problems
+
+Have to ask :
+
+1--|What kind of data i will have ?     inputs
+2--|What are the variables ?
+3--|What is the ideal path ? (Ideal Flow)
+4--|What is the alternative(s) path(s) ? (Flow alternative)
+5--|What data processing i need to build ?
+6--|What's the output , what are the data i am waitting to output ?
+
+1----| input - output
+
+2----| Number  choose_option
+     | String  item 
+     | array   Shopping list
+
+3 , 4----| 1 Display a block to user digit one item go to the list and {go back to the menu Display}
+         | 2 Display a block to user see all the items from any list and {go back to the menu Display}
+         | 2.1 Display a screen that say its empty andd {go back to the menu Display}
+         | 3 Option to not show again menu Display and says bye to the user 
+
+5----| from prompt to become Number 
+     | Put what names items writed by user into the array
+
+6----| all the names of each item separate per comma ;
+
+=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|
+
+Language tools we used 
+
+[] Loop while 
+[] Arrays and functions
+[] Conditional switch  if/escolher
+[] Template literals
+
+=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|
+
+PROBLEMA 1 ::::::::::: Depois que eu executo a funçao da option 1 ele para o programa ***Errado 
+        só é para parar quando digitar 3 e n depois de qualquer option concluida
+
+PROBLEMA 2 :::::::::: fica loop na option que eu escolher
+
+        se eu colocar a variavel option pro lado de fora do while 
+        eu sempre vou ter o mesmo valor para o option enquanto ele repetir o loop
+
+        se eu colocar o option fora do while 
+                ele sempre vai ter o mesmo valor depois que entrar dentro do while
+        Então coloque apenas a declaração dele dentro fora do while e sobreescreva -o em cada loop diferente 
+        Para n dar o erro de um mesmo valor dentro do option de novo
+
+PROBLEMA 3 :::::::::: Memoria ram na array dos itens
+        e depois de ter cadastrado os items e apertado a função 2 apareceu que num tinha nehum item cadastrado -> sendo que ele tinha cadastrado varias frutas antes de ir no 2 option
+            Isso acontece pois cada loop dentro do while vc esta limpando a array com sua initialization dentro do while
+        Colocando apenas a declaration da variabel shopping list out of block statment loop while 
+
+PROBLEMA 4 ::::::::::So consegue no option 2 listar o ultimo item add , e os outros ?
+        Pois voce esta colocando sempre na position [0] da shopping list
+        Pois vc sempre somente coloca dentro da position [0]
+
+        Choose one counter to plus 0ne each loop statment block again and this sequence 0 , 1 , 2, 3, 4, 5 , ...
+        becomes the next index into the same array Shopping List
+
+        declaration and initialization index out of while  = 0 
+
+        after used index = 0 for store first element to array 
+        incremment plus 1 at variable index : for the reason the next loop put the second element and not the same again
+
+        Using push(variable that contens value to the x element this array)

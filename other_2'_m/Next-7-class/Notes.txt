@@ -1,0 +1,3 @@
+The next Version is ----> A person just have 3 tentatives 
+untill her not guess the correct number after 3 tries 
+  the next will be other number random

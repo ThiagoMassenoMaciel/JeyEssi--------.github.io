@@ -1,0 +1,98 @@
+Always when something will chage - you must use variable
+
+new things 
+prompt("digit your name")
+alett("hi fulano")
+let varia =prompt("digit your name")
+
+To sum numbers typed per user by prompt convert string to number with function 
+Number(variable that have input dtring typed from user )
+
+[] type of data : Number 
+[] Maths Operator
+[] typeof  
+[] Data manipulation
+    [] Type convertion : typing casting
+    []Number()      ---> its a Constructor function to make the string becomes Number 
+    []String()      ---> its a Constructor function to make the Number becomes string
+[] Operator order by precedensce
+  look the diference
+    let result2 = Number(n3) + Number(n4)/2;   !==  let result2 =  (Number(n3) + Number(n4))  /2;
+
+[] Group
+
+the VIRGULA doesn't work to separate literals + string have to use + concatenat
+
+
+
+
+46' fiz em 1h30
+
+
+CHALLENGE 3.2 ----->11'30"
+
+
+
+
+PROGRAMATION LOGIC 
+UNDERSTAND THE PROBLEMS 
+CRITICAL THINKING AND LOGIC
+
+It's necessary to think 
+takes a long time , mainly for beginners
+HOW ?    making asks - 
+
+QUESTIONATE and UNDERSTAND
+Good asks , good responses 
+          to understand =  to ask until you find the solution
+          UNDERSTAND 
+          1 -> read     \__ the problem
+          2 -> Interpret/
+
+PRACTICE 
+-> more and more 
+-> take a long time to get ready , really .
+-> remember to make big problem becomes small problems
+
+teory + pratica
+ALGORITHM DATA STRUCTURE      get  \
+-> Its all about   ->       display \___   of data .
+                          managment /
+->Sequences of step by step to make one task
+
+
+READ CODE 
+-> Starts to see code from others and try to understand more 
+-> See other ways to solve problems beyond mine 
+-> Learn others algorithms
+-> Explain what code do ;
+-> Find good and bad code . HOW I KNOW ? after a lot of experience
+
+
+CHALLENGE -4 
+CHALLENGE -4.1 ----------> 13' 10"
+
+Good habbits : Don't repeat code    WHY : Because the next upgrade you'll just to need to change few lines of code .
+             : Arrumar ele em um lugar só e ja ser ajeitado em varios outros sem mexer manipulation
+
+                                                                _____> One path 
+FLOWS :   LOGIC PATHS - depends on the value into a "flag" ____/
+                                                               \_____>Other  PATH
+[] type of Data
+[] if else 
+[] Comparatives Operators
+
+fazereste exemplo de novo e fazer a aula lista de compras
+
+
+CHALLENGE 5.0 
+CHALLENGE 5.1 --------------> 9'
+
+
+DST - DATA STRUCTURE
+- Managment and ordering of data
+-improve code : Manutentionable , More eficient
+
+[] Repetitive structures 
+[] Vetor (arrays) 
+

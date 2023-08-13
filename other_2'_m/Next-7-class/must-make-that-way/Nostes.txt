@@ -1,0 +1,14 @@
+[] Flow application control
+[] Structure of repetition
+  [] While
+[] Make Number random
+[] math
+- Constructors functions
+- Math.random()
+- Math.round( mais proximo NEAREST INTERGER  > = 0.5 go up  <= 0.4 go down  ) -Math.ceil() -Math.floor()
+[] Type of data : NaN
+[] Sintaxe Error
+- words from js writted wrong way
+[] console
+- Constructors function into the devTools
+[] Template Literals + Template strings

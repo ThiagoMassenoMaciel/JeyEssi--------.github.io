@@ -1,0 +1,33 @@
+
+aparecia undefined pois tinha colocado dois alert 
+um dentro da function e outro dentro do loop
+    o q executava da função mostrava o texto
+      o q executava do loop exibia o que retornou de uma função que não tem undefined
+
+
+Function 
+
+//Create 
+  have to put her on a variable
+    function name_of_her(){ }
+
+    ways to create that references to the function-(doesn't have a name / or have) to a variable that stores them
+        const variable = ()=>{}
+
+        let/const/var variable = function(){ }
+  
+  model 
+    function name(parameter1, parameter2, parameter3){ 
+      let/const/var variable = manipulate parameters 
+
+      return variable/something to not become undifined after execute full this function
+    }
+
+//Execute 
+  if they didn't return something it'll return undefined 
+
+  name_of_her()
+
+  variable() 
+
+

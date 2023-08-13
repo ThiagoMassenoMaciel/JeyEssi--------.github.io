@@ -1,0 +1,13 @@
+CHALLENGE 8.0    |Two versions     13' content  practice 48'
+          8.1    | Display all values into each element from the list_names
+
+
+    #TOOLS PROGRAMMING LANGUAGE USED 
+        [] Data Structors : Object 
+            [] Object literals  = estanciar um objeto { com suas propriedades dentro } de uma variavel
+        [] Repetition flow 
+          for...of........interable_Variable
+             \_ each:       \_the group of lots each element
+              element
+              into my 
+              array 

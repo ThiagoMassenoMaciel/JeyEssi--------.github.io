@@ -1,0 +1,32 @@
+There are some things implicit 
+even the requisites are not write 
+    we must show again the menu OPTION
+
+EX Next-8-Class   
+    after choose and used option ihave to go back the menu options
+
+  CHALLENGE  7.0  | four versions  made in 1h
+            7.0  | if/else 
+            7.0  | switch
+
+EX Next-9-Class 
+  CHALLENGE 8.0    |Two versions     13' content  practice 48'
+            8.1    | Display all values into each element from the list_names
+
+
+      #TOOLS PROGRAMMING LANGUAGE USED 
+          [] Data Structors : Object 
+              [] Object literals  = estanciar um objeto { com suas propriedades dentro } de uma variavel
+          [] Repetition flow 
+            for...of........interable_Variable
+              \_ each:       \_the group of lots each element
+                element
+                into my 
+                array 
+
+EX Next-10-Class 
+  CHALLENGE 9.0   | 5 VERSIONS   content watched  22'    understant categorizied 45'    PRACTICE 40'
+  CHALLENGE 9.1   | PRACTICE  22'
+  CHALLENGE 9.2   | 
+  CHALLENGE 9.3   | 
+  CHALLENGE 9.4   |  
